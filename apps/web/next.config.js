@@ -345,7 +345,7 @@ const nextConfig = {
       },
       {
         source: "/icons/sprite.svg",
-        destination: `${process.env.NEXT_PUBLIC_WEBAPP_URL}/icons/sprite.svg`,
+        destination: `https://${process.env.NEXT_PUBLIC_WEBAPP_URL}/icons/sprite.svg`,
       },
       // for @dub/analytics, @see: https://d.to/reverse-proxy
       {
